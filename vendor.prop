@@ -120,6 +120,7 @@ drm.service.enabled=true
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
 # Graphics
+debug.sf.enable_transaction_tracing=false
 debug.sf.recomputecrop=0
 ro.hardware.egl=adreno
 ro.hardware.vulkan=sdm845
