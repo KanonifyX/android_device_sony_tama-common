@@ -36,7 +36,6 @@ debug.sf.hwc.min.duration=23000000
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 debug.sf.enable_hwc_vds=1
 debug.sf.auto_latch_unsignaled=0
-debug.sf.latch_unsignaled=1
 
 # Media
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
