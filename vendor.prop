@@ -168,12 +168,13 @@ ro.netflix.bsp_rev=Q845-14477-1
 
 # Radio
 ril.subscription.types=NV,RUIM
+persist.vendor.radio.enableadvancedscan=false
 persist.vendor.radio.apm_sim_not_pwdn=0
 persist.vendor.radio.sib16_support=1
 persist.vendor.radio.custom_ecc=1
 persist.vendor.radio.rat_on=combine
 persist.vendor.radio.wait_for_pbm=1
-persist.vendor.radio.mt_sms_ack=19
+persist.vendor.radio.mt_sms_ack=30
 persist.vendor.radio.add_power_save=1
 persist.vendor.radio.vdp_on_ims_cap=1
 persist.vendor.radio.unicode_op_names=true
@@ -189,9 +190,6 @@ persist.vendor.sensors.direct_channel=false
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-
-# Radio
-persist.vendor.radio.enableadvancedscan=false
 
 # USB
 vendor.usb.diag.func.name=diag
