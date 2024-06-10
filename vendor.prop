@@ -136,6 +136,7 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 # HWUI
 debug.hwui.renderer=skiagl
 debug.hwui.skia_atrace_enabled=false
+debug.renderengine.backend=skiaglthreaded
 
 # IMS
 persist.dbg.volte_avail_ovr=1
